@@ -6,8 +6,7 @@
 
 ## 🚀 Live Demo
 
-**[Try it here →](https://your-github-username.github.io/ketchkit/)**  
-*(replace with your actual GitHub Pages link)*
+**[Try it here →](https://jfell13.github.io/ketchkit/)**  
 
 ---
 
@@ -33,7 +32,7 @@
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-github-username/ketchkit.git
+git clone https://github.com/jfell13/ketchkit
 cd ketchkit
 npm install
 npm run dev
