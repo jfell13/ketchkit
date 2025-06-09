@@ -22,8 +22,8 @@
 
 ## 🔧 Tech Stack
 
-- **Ketcher** v2.5.0 – Molecular sketcher by EPAM Life Sciences
-- **RDKit.js** v2023.03 – WebAssembly port of RDKit for cheminformatics
+- **Ketcher** v3.2.0 – Molecular sketcher by EPAM Life Sciences
+- **RDKit.js** v2025.3.2-1.0.0 – WebAssembly port of RDKit for cheminformatics
 - **React** (via Vite) – Fast and modern frontend framework
 - **Hosted on GitHub Pages**
 
