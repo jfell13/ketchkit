@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const loadRDKit = async () => {
       const RDKitModule = await initRDKitModule({
-        locateFile: () => '/RDKit_minimal.wasm',
+        locateFile: () => `${import.meta.env.BASE_URL}RDKit_minimal.wasm`,
       });
       setRDKit(RDKitModule);
       console.log("RDKit.js loaded:", RDKitModule.version());
@@ -27,8 +27,7 @@ function App() {
   const handleExtract = async () => {
     console.log("Ketcher:", ketcher);
     console.log("RDKit:", RDKit);
-
-    if (!ketcher || !RDKit) {
+    if (!ketcher || !RDKit || !ketcher.getSmiles) {
       alert("Ketcher or RDKit not loaded.");
       return;
     }
@@ -55,6 +54,7 @@ function App() {
       link.download = 'ketcher.mol';
       link.click();
       URL.revokeObjectURL(url);
+      mol.delete();
     } else {
       console.warn('Ketcher is not yet initialized.')
     }
