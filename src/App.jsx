@@ -44,15 +44,20 @@ function App() {
     // alert(output);
   };
 
-  const downloadMol = () => {
-    const molH = mol.add_hs();
-    const blob = new Blob([molH], {type: 'text/plain'});
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = 'ketcher.mol';
-    link.click();
-    URL.revokeObjectURL(url);
+  const downloadMol = async () => {
+    if (ketcher && ketcher.getMol) {
+      const molData = await ketcher.getMol()
+      const molH = mol.add_hs();
+      const blob = new Blob([molH], {type: 'text/plain'});
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'ketcher.mol';
+      link.click();
+      URL.revokeObjectURL(url);
+    } else {
+      console.warn('Ketcher is not yet initialized.')
+    }
   }
 
   const downloadDescription = () => {
