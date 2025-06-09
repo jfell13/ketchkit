@@ -1,0 +1,7 @@
+{"exactmw":30.04695,"amw":30.07,"lipinskiHBA":0.0,"lipinskiHBD":0.0,"NumRotatableBonds":0.0,"NumHBD":0.0,"NumHBA":0.0,"NumHeavyAtoms":2.0,
+"NumAtoms":8.0,"NumHeteroatoms":0.0,"NumAmideBonds":0.0,"FractionCSP3":1.0,"NumRings":0.0,"NumAromaticRings":0.0,
+"NumAliphaticRings":0.0,"NumSaturatedRings":0.0,"NumHeterocycles":0.0,"NumAromaticHeterocycles":0.0,"NumSaturatedHeterocycles":0.0,
+"NumAliphaticHeterocycles":0.0,"NumSpiroAtoms":0.0,"NumBridgeheadAtoms":0.0,"NumAtomStereoCenters":0.0,
+"NumUnspecifiedAtomStereoCenters":0.0,"labuteASA":15.10419,"tpsa":0.0,"CrippenClogP":1.0262,"CrippenMR":11.348,
+"chi0v":2.0,"chi1v":1.0,"chi2v":0.0,"chi3v":0.0,"chi4v":0.0,"chi0n":2.0,"chi1n":1.0,"chi2n":0.0,"chi3n":0.0,"chi4n":0.0,"hallKierAlpha":0.0,"kappa1":2.0,"kappa2":0.0,"kappa3":0.0,
+"Phi":0.0}

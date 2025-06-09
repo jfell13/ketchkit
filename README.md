@@ -1,0 +1,39 @@
+# 🧪 KetchKit
+
+**KetchKit** is a lightweight molecular sketching and property analysis tool built with [Ketcher](https://lifescience.opensource.epam.com/ketcher/) and [RDKit.js](https://github.com/rdkit/rdkit-js). It allows users to draw molecules, extract SMILES and MOL formats, and compute Crippen properties (ClogP and MR) in the browser.
+
+---
+
+## 🚀 Live Demo
+
+**[Try it here →](https://your-github-username.github.io/ketchkit/)**  
+*(replace with your actual GitHub Pages link)*
+
+---
+
+## 🛠️ Features
+
+- Draw and edit chemical structures interactively
+- Export SMILES and MOL file formats
+- Calculate Crippen ClogP and MR values using RDKit.js
+- Download results as `.mol` and `.json` files
+- Built with a fast, modern frontend using **React** and **Vite**
+
+---
+
+## 🔧 Tech Stack
+
+- **Ketcher** v2.5.0 – Molecular sketcher by EPAM Life Sciences
+- **RDKit.js** v2023.03 – WebAssembly port of RDKit for cheminformatics
+- **React** (via Vite) – Fast and modern frontend framework
+- **Hosted on GitHub Pages**
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-github-username/ketchkit.git
+cd ketchkit
+npm install
+npm run dev
