@@ -122,9 +122,9 @@ function App() {
       and if you're curious take a look at my <a href='https://github.com/jfell13'>code</a>.</p>
       <p>Enjoying this tool? Consider supporting development with a coffee!</p>
       <a href="https://ko-fi.com/jasonfell" target="_blank">
-        <image src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee"/>
+        <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee"/>
       </a>
-    </footer>
+    </footer> 
     </div>
   )
 }
