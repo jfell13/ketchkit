@@ -120,6 +120,10 @@ function App() {
       <p>© 2025 Jason Fell. All rights reserved.</p>
       <p>Check out my other <a href='https://jfell13.github.io/'>projects</a>, 
       and if you're curious take a look at my <a href='https://github.com/jfell13'>code</a>.</p>
+      <p>Enjoying this tool? Consider supporting development with a coffee!</p>
+      <a href="https://ko-fi.com/jasonfell" target="_blank">
+        <image src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Buy Me a Coffee"/>
+      </a>
     </footer>
     </div>
   )

@@ -36,3 +36,6 @@ git clone https://github.com/jfell13/ketchkit
 cd ketchkit
 npm install
 npm run dev
+
+## Support
+If you find this project helpful, consider [buying me a coffee](https://ko-fi.com/jasonfell)!
